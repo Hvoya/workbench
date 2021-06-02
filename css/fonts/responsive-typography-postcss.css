@@ -1,0 +1,3 @@
+@define-mixin font $min-width, $max-width, $min-font, $max-font {
+  font-size: calc($min-font + ($max-font - $min-font) * ((100vw - $min-width) / ($max-width - $min-width)));;
+}

@@ -1,0 +1,35 @@
+/*font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
+
+body {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+/* Each type of typography element should use it and have a different formula on each breakpoint to match design */
+
+h1 {
+  font-size: 36px;
+}
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: calc(28px + (36 - 28) * ((100vw - 1024px) / (1200 - 1024)));
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: calc(24px + (28 - 24) * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: calc(22px + (24 - 22) * ((100vw - 564px) / (768 - 564)));
+  }
+}
+
+@media screen and (max-width: 564px) {
+  h1 {
+    font-size: calc(18px + (22 - 18) * ((100vw - 320px) / (564 - 320)));
+  }
+}
