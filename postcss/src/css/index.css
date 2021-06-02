@@ -1,0 +1,32 @@
+body {
+  font-family: 'Alice';
+}
+
+button:hover {
+  background: red;
+}
+
+p {
+  font-size: responsive 12px 21px;
+  font-range: 420px 1280px;
+}
+
+.inlineMedia {
+  font-size: 10px @600 15px @900 30px @1200 23px;
+}
+
+.centerContainer {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background: aqua;
+}
+
+.centeredItem {
+  top: center;
+  left: center
+}
+
+.warningExample {
+  grid-template: 10px;
+}
