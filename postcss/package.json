@@ -1,0 +1,38 @@
+{
+  "name": "workbanch-postcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.38.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "css-loader": "^5.2.6",
+    "cssnano": "^5.0.5",
+    "doiuse": "^4.4.1",
+    "html-webpack-plugin": "^5.3.1",
+    "postcss": "^8.3.0",
+    "postcss-animation": "0.0.12",
+    "postcss-center": "^1.1.0",
+    "postcss-circle": "^1.1.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-focus": "^5.0.1",
+    "postcss-font-magician": "^3.0.0",
+    "postcss-inline-media": "^1.4.0",
+    "postcss-loader": "^5.3.0",
+    "postcss-mixins": "^8.0.0",
+    "postcss-nested": "^5.0.5",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-resemble-image": "^2.1.1",
+    "postcss-responsive-type": "^1.0.0",
+    "postcss-triangle": "^2.0.0",
+    "style-loader": "^2.0.0",
+    "webpack-cli": "^4.7.0"
+  }
+}
